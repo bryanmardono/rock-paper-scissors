@@ -3,6 +3,31 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+.red-color {
+    color: red;
+}
+
+.green-color {
+    color: lightgreen;
+}
+
+.blue-color {
+    color: darkturquoise;
+}
+.header{
+    text-align: center;
+}
+
+.title {
+    word-spacing: 30px;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.instruction {
+    font-size: 30px;
+}
   
 .weapon-button {
     background-color: transparent;
