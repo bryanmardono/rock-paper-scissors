@@ -1,0 +1,23 @@
+.weapon-button {
+    background-color: transparent;
+    border: none;
+}
+
+.weapon-button:hover {
+    background-color: bisque;
+}
+
+.rock-icon {
+    width: 200px;
+    height: auto;
+}
+
+.paper-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.scissors-icon {
+    width: 200px;
+    height: auto;
+}

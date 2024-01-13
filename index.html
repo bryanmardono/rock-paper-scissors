@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
@@ -14,17 +14,46 @@
         </p>
     </header>
     <main class="main">
-        <div class="play-area">
+        <div class="game-area">
             <button class="rock-button weapon-button">
                 <img src="https://cdn-icons-png.flaticon.com/512/4953/4953463.png" alt="Rock Image" class="rock-icon">
             </button>
             <button class="paper-button weapon-button">
-                <img src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-paper-icon-image_1131168.jpg" alt="Paper Image" class="paper-icon">
+                <img src="resources/paper.png" alt="Paper Image" class="paper-icon">
             </button>
             <button class="scissors-button weapon-button">
-                <img src="https://w7.pngwing.com/pngs/317/713/png-transparent-scissors-computer-icons-scissors-scissors-icon-text-logo-symbol.png" alt="Scissors Image" class="scissors-icon">
+                <img src="https://static.vecteezy.com/system/resources/previews/010/366/281/original/scissor-icon-transparent-free-png.png" alt="Scissors Image" class="scissors-icon">
             </button>
         </div>
+
+        <div class="game-output">
+            <div class="game-choice">
+                <div class="symbol" id="playerSymbol"></div>
+                <p class="identity" id="player">Player</p>
+            </div>
+            <div class="game-choice">
+                <div class="symbol" id="computerSymbol"></div>
+                <p class="identity" id="computer">Computer</p>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="game-counter">
+                <p class="round">Round</p>
+                <p class="round-counter"></p>
+            </div>
+            <div class="scoreboard">
+                <p class="lives">Your Lives: 5 | Enemy's Lives: 5</p>
+                <p class="combat-text">Combat Area: Empty</p>
+            </div>
+        </div>
+
+        <div class="game-end">
+            <p class="game-end-text"></p>
+            <button class="game-restart">Fight Again!</button>
+        </div>
+
+
     </main>
 
 
