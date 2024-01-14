@@ -92,7 +92,7 @@
 }
 
 .symbol {
-    font-size: 130px;
+    font-size: 110px;
 }
 
 .identity {
@@ -140,9 +140,9 @@
     font-family: "Macondo Swash Caps", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
-    margin: 30px auto;
+    margin: 50px auto;
     background-color: transparent;
     border: 3px solid;
     border-radius: 10px;
@@ -155,4 +155,16 @@
     color: beige;
     cursor: pointer;
     transition: 0.2s linear;
+}
+
+.lose-border {
+    border-color: brown;
+}
+
+.win-border {
+    border-color:aqua;
+}
+
+.tie-border {
+    border-color: greenyellow;
 }
