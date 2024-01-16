@@ -50,7 +50,6 @@
 .weapon-button {
     background-color: transparent;
     border: none;
-    color:aliceblue;
 }
 
 .weapon-button:hover {
@@ -92,11 +91,15 @@
 }
 
 .symbol {
-    font-size: 110px;
+    font-size: 80px;
 }
 
 .identity {
     font-size: 20px;
+}
+
+#player {
+    margin-left: 12px;
 }
 
 .wrapper {
@@ -132,8 +135,14 @@
 }
 
 .game-end {
-    visibility: visible;
+    visibility: hidden;
     display: flex;
+    flex-direction: column;
+}
+
+.game-end-text {
+    font-size: 30px;
+    margin: 50px auto;
 }
 
 .game-restart {
@@ -142,7 +151,7 @@
     font-style: normal;
     font-size: 30px;
     padding: 10px;
-    margin: 50px auto;
+    margin: 30px auto;
     background-color: transparent;
     border: 3px solid;
     border-radius: 10px;
@@ -158,13 +167,18 @@
 }
 
 .lose-border {
-    border-color: brown;
+    border-color: red;
 }
 
 .win-border {
-    border-color:aqua;
+    border-color: darkturquoise;
 }
 
 .tie-border {
-    border-color: greenyellow;
+    border-color: darkgreen;
+}
+
+.disabled-button {
+    opacity: 0.5;
+    transform: none;
 }
