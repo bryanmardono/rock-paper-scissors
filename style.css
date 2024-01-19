@@ -81,21 +81,25 @@
     align-items: flex-end;
     justify-content: flex-end;
     width: 600px;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
 }
 
 .game-choice {
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    height: 200px;
     margin: auto;
 }
 
 .symbol {
-    font-size: 80px;
+    font-size: 102px;
 }
 
 .identity {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #player {

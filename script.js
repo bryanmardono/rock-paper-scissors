@@ -116,6 +116,7 @@ function endGame(playerHealth, computerHealth) {
         rockBtn.removeEventListener('click', getComputerChoice);
         paperBtn.removeEventListener('click', getComputerChoice);
         scissorsBtn.removeEventListener('click', getComputerChoice);
+        wrapper.classList.add('disabled-button');
         weaponBtns.forEach((button) => {
             button.classList.add('disabled-button');
         })
